@@ -1,0 +1,9 @@
+# xtool build of the iPhone app (see docs/IOS.md): `xtool dev build` / `xtool dev run --usb`.
+version: 1
+bundleID: io.github.rvfamaestre.icam
+product: ICam
+infoPath: Info.plist
+iconPath: Assets/AppIcon.png
+resources:
+  - Assets/AppIcon60x60@2x.png
+  - Assets/AppIcon60x60@3x.png
